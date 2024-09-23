@@ -1,6 +1,6 @@
-name: com.example.simple_auth_app
+name: simple_auth_app
 description: A simple Flutter app demonstrating login functionality using the Cubit pattern for state management.
-version: 1.0.0
+version: 1.0.0+1
 
 environment:
   sdk: ">=2.17.0 <3.0.0"

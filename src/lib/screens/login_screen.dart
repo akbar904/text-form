@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:simple_auth_app/widgets/email_text_field.dart';
-import 'package:simple_auth_app/widgets/password_text_field.dart';
 import 'package:simple_auth_app/widgets/login_button.dart';
 import 'package:simple_auth_app/cubits/login_cubit.dart';
 
@@ -24,8 +23,6 @@ class _LoginScreenState extends State<LoginScreen> {
 					mainAxisAlignment: MainAxisAlignment.center,
 					children: [
 						EmailTextField(),
-						SizedBox(height: 16),
-						PasswordTextField(),
 						SizedBox(height: 16),
 						LoginButton(),
 					],
